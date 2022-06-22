@@ -1,22 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .label {
-  width: 260px;
-  height: 600px;
+  width: 275px;
   border-width: 2px;
   border-style: solid;
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 
 h1 {
   text-align: center;
-  font-weight: 900;
+  font-weight: 800;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -24,4 +28,51 @@ h1 {
 hr {
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.left {
+  width: 60%;
+  text-align: left;
+}
+
+.right {
+  width: 38%;
+  text-align: right;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.thick {
+  border: 5px solid; 
+}
+
+.less-thick {
+  border: 3px solid; 
+}
+
+.small {
+  font-size: small;
+}
+
+.large {
+  font-size: 30px;
+}
+
+.full {
+  width: 100%;
+}
+
+.indented {
+  padding-left: 10px;
 }
